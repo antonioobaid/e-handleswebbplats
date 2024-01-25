@@ -1,0 +1,639 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.homepage{
+  width: 100%;
+}
+
+/*Header*/
+
+
+.Container-header{
+  background: #fff;
+  padding: 2rem 0 ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ .logo{
+  font-size: 2rem; 
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+.main-navigation {
+  font-size: 1rem;
+}
+.nav-links {
+    color: black;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+.nav-links.active{
+  color: red;
+}
+
+.login-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.login-header .login-klick {
+  color: black;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  border: #fff;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.login-header i {
+  color: #a59999;
+  cursor: pointer;
+}
+
+
+
+
+/*homepage*/
+
+
+.main-homepage{
+  background-color: rgb(226, 219, 220);
+
+}
+.main-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.our-goods{
+  width: 50%;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.welcome-to-sidan{
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.bra-priser{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.shop-now{
+  font-size: 1.5rem;
+  width: 30%;
+  height: 50px;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(115, 112, 112);
+  background-color: rgb(208, 49, 49);
+  cursor: pointer;
+}
+.backgroundbild{
+  width: 100%; 
+  max-width: 625px; 
+  height: 647px; 
+  padding: 3rem;
+}
+.kategori{
+  background-color: #f9f6f6;
+}
+.kategori-container{
+  
+}
+.collections{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collections-title{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 2rem 0; 
+}
+.collections-form a{
+   padding: 0.4rem ;
+   color: rgb(84, 78, 78);
+   text-decoration: none;
+}
+.kategori-images{
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  height: auto;
+}
+.laptop-image{
+  width: 270px;
+  height: 295px;
+  cursor: pointer;
+}
+.kategori-name{
+  margin: 1rem 0;
+  text-align: center;
+  cursor: pointer;
+}
+.kategori-pris{
+  text-align: center;
+  color: #453f3f7e;
+}
+.load-more{
+  text-align: center;
+  margin-top: 2rem;
+}
+.btn{
+  font-size: 1.5rem;
+  width: 15%;
+  height: 50px;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.discounts{
+  background-color: rgb(226, 219, 220);
+}
+.discount{
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 1rem;
+}
+.discounts-info{
+  border: 1px solid rgb(180, 169, 169);
+}
+.discounts-sale{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 370px;
+  height: 400px;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid rgb(180, 169, 169);
+}
+.discount-image{
+  width: 370px;
+  height: 310px;
+}
+.title-discount{
+  color: rgb(224, 24, 24);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.percent-discount{
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(49, 45, 45);
+}
+.title2-discount{
+  color: rgb(61, 55, 55);
+}
+.rubrik-discount{
+  width: 65%;
+  color: #696464;
+  margin-bottom: 1rem;
+}
+.discover-more{
+  color: #696464;
+  text-decoration: none;
+}
+.newsletters{
+  background-color: #f3ebeb;
+  height: 280px;
+  border: 1px solid #ece4e4;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+
+}
+.newsletter-background{
+  width: 60%;
+  height: 140px;
+  border: 1px solid rgb(228, 216, 216);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.7rem;
+}
+.email-newsletter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-newsletter{
+  font-size: 1rem;
+  padding: 1rem;
+  width: 100%;
+  height: 50px;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(223, 212, 212);
+}
+.subscripe-newsletter{
+  font-size: 1rem;
+  height: 50px;
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: rgb(215, 55, 55);
+  color: #fff;
+  cursor: pointer;  
+}
+
+
+
+/*footer*/
+
+
+
+
+.fotter{
+  background-color: #393333;
+  height: 120px;
+}
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: #fff;
+}
+.footer-linkar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.footer-linkar a {
+  color: #ef4f4f;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+
+
+
+
+/*productdetails*/
+
+
+
+.main-productdetails{
+  background-color: #fff;
+}
+.backgroundsbild img{
+  width: 100%;
+  height: 300px;
+}
+.shop-products{
+  background-color: #e6d8d8;
+}
+.container-products{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+.images-product{
+  width: 40%;
+}
+.image .stora-bilden{
+  width: 501px;
+  height: 430px;
+  border: 1px solid rgb(200, 191, 191);
+}
+.images-product img {
+  width: 120px;
+  height: 113px;
+  margin: 0.2rem;
+  border: 1px solid rgb(200, 191, 191);
+}
+.pruduct{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+
+}
+
+.product-info{
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 1rem 0 ;
+}
+.product-mera-info{
+    font-size: 0,8rem;
+    width: 50%;
+    color: #383333;
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+}
+.reviews{
+  display: flex;
+  gap: 1rem;
+  border-top: 1px solid rgb(173, 161, 161);
+  width: 70%;
+}
+
+.stars{
+  color: rgb(200, 174, 25);
+  font-size: 1.3rem;
+  margin-top: 1rem
+}
+.price-product-info{
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.reviews-number{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.varukorg{
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+}
+.antal-product{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+.minska-product , .öka-antal-product {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.add-to-cart{
+  width: 200px;
+  height: 40px;
+  background-color: #ef4f4f;
+  border: 1px solid rgb(241, 234, 234);
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+.descriptions{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem 0;
+  padding: 2rem;
+}
+.description-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description-info{
+    width: 85%;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #696464;
+}
+.description-image{
+  width: auto;
+}
+.description-image img {
+  width: 469px ;
+  height: 356px;
+}
+
+
+
+
+
+
+
+/*contacts*/
+
+
+.form-contacts{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: auto;
+  background-color: #f4eded;
+  padding: 2rem;
+}
+
+
+.form-align {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 500px;
+ 
+  
+}
+
+.form-contacts .rubrik {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+.form-contacts .form-input, .form-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  
+
+}
+.form-input:focus{
+  outline-color: rgb(15, 199, 15);
+}
+
+.form-label{
+  font-size: 1.2rem;
+  font-weight: 500px;
+}
+.form-textarea{
+  margin-top: 1rem;
+}
+.form-textarea:focus{
+  outline-color: rgb(15, 199, 15)
+}
+.Invalid-input{
+  color: red;
+  font-size: 1rem;
+  margin: 1.5rem 0;
+}
+
+.form-contacts .submit-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 7rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.form-contacts button:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+/*loginform*/
+
+.form-login{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: #f4eded;
+}
+.form-align-login{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  margin: 3rem;
+}
+.login-paraghraf{
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.form-info{
+  margin-bottom: 1rem;
+}
+.form-info label ,input {
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: block;
+  margin: 0.5rem;
+}
+.form-info input{
+  width: 400px ;
+  padding: 0.5rem;
+  border: 1px solid #c9c9c9;
+  border-radius: 0.3rem;
+}
+.form-info input:focus{
+  outline-color: rgb(15, 199, 15);
+}
+.login-btn{
+  font-size: 1.2rem;
+  padding: 0.7rem;
+  width: 170px;
+  background-color: rgb(218, 33, 33);
+  border: 1px solid #c9c9c9;
+  border-radius: 0.4rem;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.skapa-konto{
+  text-decoration: none;
+  color: #30c935;
+  font-size: 1.1rem;
+}
+
+
+
+
+
+/*registerform */
+
+
+.register-form{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: #f4eded;
+}
+.form-align-register{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  margin: 3rem;
+}
+.title-register{
+  font-size: 1.4rem;
+  font-weight: 500px;
+  margin: 1rem;
+}
+
+.form-info-- label ,input {
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: block;
+  margin: 0.5rem;
+  margin: 0.8rem 0;
+}
+.form-info-- input{
+  width: 400px ;
+  padding: 0.5rem;
+  border: 1px solid #c9c9c9;
+  border-radius: 0.3rem;
+}
+.form-info-- input:focus{
+  outline-color: rgb(15, 199, 15);
+}
+.register-btn{
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 150px;
+  background-color: rgb(218, 33, 33);
+  border: 1px solid #c9c9c9;
+  border-radius: 0.4rem;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
